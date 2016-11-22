@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="939d52e9-c4e5-4117-b0eb-3497c44a0a36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/play.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game_board.rb" afterPath="$PROJECT_DIR$/lib/game_board.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/game_board_spec.rb" afterPath="$PROJECT_DIR$/spec/game_board_spec.rb" />
     </list>
     <ignored path="connect_four.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_board_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game_board_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/game_board_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="231" column="5" selection-start-line="231" selection-start-column="5" selection-end-line="231" selection-end-column="5" />
+            <state relative-caret-position="948">
+              <caret line="225" column="9" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/play.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -79,6 +87,7 @@
         <option value="$PROJECT_DIR$/lib/bitboard.rb" />
         <option value="$PROJECT_DIR$/lib/game_board.rb" />
         <option value="$PROJECT_DIR$/spec/game_board_spec.rb" />
+        <option value="$PROJECT_DIR$/play.rb" />
       </list>
     </option>
   </component>
@@ -315,12 +324,12 @@
       <option name="presentableId" value="Default" />
       <updated>1479650850360</updated>
       <workItem from="1479650854762" duration="35613000" />
-      <workItem from="1479815564996" duration="10680000" />
+      <workItem from="1479815564996" duration="11871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46293000" />
+    <option name="totallyTimeSpent" value="47484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="714" extended-state="6" />
@@ -420,6 +429,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/game_board_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="225" column="9" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/game_board.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -428,10 +445,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/game_board_spec.rb">
+    <entry file="file://$PROJECT_DIR$/play.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="231" column="5" selection-start-line="231" selection-start-column="5" selection-end-line="231" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>
