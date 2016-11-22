@@ -1,8 +1,15 @@
 class GameBoard
-  attr_reader :board
+  attr_reader :player
   def initialize
-    @board = create_board
     @player = "p1"
+  end
+
+  def toggle_player
+    player == "p1" ? @player = "p2" : @player = "p1"
+  end
+
+  def board
+    @board || @board = create_board
   end
 
   def create_board
@@ -17,7 +24,7 @@ class GameBoard
     board[x][y].nil?
   end
 
-  def drop_disc(location, player)
+  def drop_disc(location, player = self.player)
     x, y = location
     if field_empty?(x, y)
       board[x][y] = player

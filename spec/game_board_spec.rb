@@ -216,6 +216,18 @@ describe GameBoard do
         expect(@game_board.get_winner).to eql('p1')
       end
     end
+  end
 
+  describe "#toggle_player" do
+    context "previous player being 'p1'" do
+      before do
+        @game_board = GameBoard.new
+        @game_board.toggle_player
+      end
+
+      it "changes player to 'p2'" do
+        expect(@game_board.player).to eql('p2')
+      end
+    end
   end
 end
